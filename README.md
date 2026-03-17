@@ -83,4 +83,4 @@ A simple Todo interface where users can manage daily tasks easily.
 
 If you like this project, give it a ⭐ on GitHub!
 
-![Todo](<Screenshot 2026-03-17 at 15.19.07.png>)
+![Todo](<Todo.png>)
