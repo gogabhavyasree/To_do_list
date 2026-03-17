@@ -1,0 +1,81 @@
+body{
+font-family: Arial;
+background: linear-gradient(135deg,#667eea,#764ba2);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.app{
+background:white;
+width:400px;
+padding:30px;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+.task-input{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.task-input input{
+flex:1;
+padding:10px;
+border-radius:6px;
+border:1px solid #ddd;
+}
+
+.task-input button{
+padding:10px 15px;
+background:#667eea;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.task-input button:hover{
+background:#5563d6;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#f4f4f4;
+padding:10px;
+border-radius:6px;
+margin-bottom:10px;
+cursor:pointer;
+}
+
+.completed{
+text-decoration:line-through;
+color:gray;
+}
+
+.delete{
+background:red;
+color:white;
+border:none;
+padding:5px 10px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.delete:hover{
+background:darkred;
+}
